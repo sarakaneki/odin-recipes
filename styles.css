@@ -1,7 +1,39 @@
 
-h1 {
-    color: red;
-    font-size: x-large;
+h1.indextitle {
+    color: black;
+    font-size: 100px;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h4 {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+  }
+
+div.pictures {
+    margin: 30px;
+    margin-bottom: 0px;
+}
+
+figure {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+p.description {
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
 }
