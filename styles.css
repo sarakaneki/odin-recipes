@@ -38,9 +38,15 @@ p.description {
     margin-left: 20%;
 }
 
-h1.small {
+.small {
     text-align: center;
+    font-size: 50px;
+    color: black;
     margin-right: 20%;
     margin-left: 20%;
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+hr.rounded { 
+    border-top: 8px solid #000000; border-radius: 5px; 
 }
